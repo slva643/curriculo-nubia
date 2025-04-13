@@ -1,12 +1,10 @@
-/* ===== IMPORTAÇÃO DE FONTES ===== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* ===== ESTILO BASE (MOBILE FIRST) ===== */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 header {
@@ -14,7 +12,8 @@ header {
   flex-direction: column;
   align-items: center;
   height: 500px;
-  background-color: #0c142c;
+  
+  background-color: #0c142c
 }
 
 .logo {
@@ -34,13 +33,14 @@ h1 {
 
 ul li {
   display: flex;
-  flex-direction: column;
+  flex-direction: cullumn;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   list-style: none;
   margin: 12px 0;
   color: #fff;
+  
 }
 
 ul li a {
@@ -56,12 +56,12 @@ ul li a:hover {
   color: #fff;
 }
 
-.fa-solid {
+.fa-solid  {
   padding: 0 10px;
 }
 
 .containe {
-  padding: 50px 0 0 10px;
+  padding: 50px 0px 0px 10px;
 }
 
 .fa-bullseye {
@@ -72,7 +72,8 @@ ul li a:hover {
 hr {
   width: 95%;
   border: 1px solid rgba(226, 226, 226, 0.425);
-  margin: 20px 0 18px 0;
+  margin-top: 20px;
+  margin-bottom: 18px;
 }
 
 .containe p {
@@ -87,11 +88,14 @@ hr {
   font-weight: 600;
 }
 
-.card {
+
+.card{
+  /* width: 100%; */
   margin: 1.5em;
   border: 1px solid rgb(190, 189, 189);
   border-left: 5px solid black;
   border-radius: 8px;
+  /* box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.9); */
 }
 
 .a-briefcase {
@@ -114,11 +118,11 @@ hr {
   border: 1px solid rgba(218, 218, 218, 0.747);
   border-radius: 50px;
   display: inline-block;
-  padding: 3px 10px;
+  padding: 3px 10px 3px 10px;
   margin-bottom: 10px;
 }
 
-.container-card p {
+.container-card  p {
   margin-bottom: 15px;
   font-size: 1em;
   color: #5e667e;
@@ -129,7 +133,6 @@ hr {
   border: 1px solid rgb(190, 189, 189);
   border-radius: 8px;
 }
-
 .fa-graduation-cap {
   padding: 5px;
   font-size: 0.9em;
@@ -137,26 +140,28 @@ hr {
 
 .quebra {
   display: inline-block;
-  width: 100%;
+  width: 60%;
   margin-left: 20px;
   text-indent: -20px;
-  padding: 20px;
+   padding: 20px;
 }
 
 .fa-check-circle {
   padding: 5px;
   font-size: 0.9em;
+ 
 }
 
-.fa-circle {
+.fa-circle{
   padding-right: 10px;
   color: rgb(105, 105, 105);
 }
 
+
 .habilidade h4 {
   font-size: 1rem;
   font-weight: normal;
-  margin: 0 0 15px 0;
+  margin: 0px 0px 15px 0px;
   line-height: 1.5;
   text-indent: -15px;
   margin-left: 40px;
@@ -174,14 +179,14 @@ hr {
   margin-top: 30px;
 }
 
-.contato li a {
+.contato li  a {
   background-color: #0c142c;
   width: 90%;
   padding: 15px;
   border-radius: 10px;
 }
 
-.contato li a:hover {
+.contato li  a:hover {
   background-color: #0c142cdc;
   transition: 0.3s all;
 }
@@ -193,124 +198,4 @@ footer {
   color: white;
   text-align: center;
   margin-top: 40px;
-}
-
-/* ===== ESTILO PARA DESKTOP ===== */
-@media only screen and (min-width: 768px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
-    height: 200px;
-  }
-  
-  #conatine-geral {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-
-  .logo {
-    margin-top: 0;
-    max-width: 150px;
-  }
-
-  h1 {
-    font-size: 3rem;
-    text-align: left;
-  }
-
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  ul li {
-    flex-direction: row;
-    margin: 0 10px;
-  }
-
-  .containe {
-    padding: 50px 50px 0px 50px;
-  }
-
-  .card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .quebra {
-    width: 70%;
-    margin-left: 30px;
-  }
-
-  .contato li {
-    justify-content: center;
-  }
-
-  .contato li a {
-    width: 40%;
-  }
-
-  .container-cards {
-    display: flex;
-    flex-direction: ruw;
-  }
-
- .habilidade {
-  column-count: 2;
-  column-gap: 40px;
-  padding: 20px;
- }
-
- .habilidade h4 {
-  break-inside: avoid;
-  margin-bottom: 15px;
-  font-size: 1rem;
-  text-indent: -15px;
-  margin-left: 40px;
- }
-
- .contato {
-  height: 250px;
-  padding: 20px 20px -20px 20px;
- }
-
- .contato li  {
-  border: 1px solid red;
-  display: inline-block;
- }
-
- footer {
-  margin-top: 0px;
- }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-    background-color: #0c142c;
-  }
-
-  .logo {
-    width: 100%;
-    max-width: 160px;
-    margin-top: 50px;
-    border-radius: 600px;
-    border: 3px solid #fff;
-  }
-  
-  .titulo h1 {
-    font-size: 1.5em;
-    text-align: center;
-  }
-
-  .titulo li {
-    font-size: 0.6em;
-  }
 }
