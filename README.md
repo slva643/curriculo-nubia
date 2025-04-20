@@ -13,12 +13,12 @@ Este é meu currículo online, desenvolvido para facilitar o acesso dos recrutad
 
 ## 🗂️ Estrutura do Projeto
 
-📁 projeto-curriculo/ 
-├── index.html # Página principal com conteúdo do currículo 
-├── css/ 
-│ └── style.css # Estilo visual da página 
-├── js/ 
-  └── script.js # Efeitos ou interações com JavaScript
+-📁 projeto-curriculo/ 
+-├── index.html # Página principal com conteúdo do currículo 
+-├── css/ 
+-│ └── style.css # Estilo visual da página 
+-├── js/ 
+-  └── script.js # Efeitos ou interações com JavaScript
 
  
 ## 🛠️ Funcionalidades
