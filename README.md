@@ -2,7 +2,7 @@
 # Currículo Online - Nubia
 
 ## 📌 Descrição
-Este é meu currículo online, desenvolvido para facilitar o acesso dos recrutadores ter informações profissionais, experiências, formação e habilidades técnicas.
+Este currículo online, desenvolvido para facilitar o acesso dos recrutadores ter informações profissionais, experiências, formação e habilidades técnicas.
 
 ## 🌐 Acesse
 (https://nubiadias.netlify.app/) 
