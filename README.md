@@ -15,10 +15,10 @@ Este currículo online, desenvolvido para facilitar o acesso dos recrutadores te
 
 - 📁 projeto-curriculo/ 
 - ├── index.html # Página principal com conteúdo do currículo 
-- ├── css/ 
-- │ └── style.css # Estilo visual da página 
-- ├── js/ 
--  └── script.js # Efeitos ou interações com JavaScript
+- ├── asset/css/ 
+- │         └── style.css # Estilo visual da página 
+- ├── img/  # As imagem do perfil
+
 
  
 ## 🛠️ Funcionalidades
